@@ -8,7 +8,7 @@ The aim of this project is to provide some basic rails helpers to render structu
 
 * The main goal right now is to provide meta information inside web-pages for search engines. We are going to use [this page](https://developers.google.com/search/docs/guides/intro-structured-data) as a reference.
 
-* The prefered format is JSON-LD, although for certain features we might use something else (like microdata or RDFa).
+* The prefered format is [JSON-LD](http://json-ld.org/), although for certain features we might use something else (like [microdata](https://www.w3.org/TR/microdata/) or RDFa).
 
 ## Contributing
 
