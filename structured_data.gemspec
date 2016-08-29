@@ -10,8 +10,8 @@ Gem::Specification.new do |s|
   s.authors     = ["endenis"]
   s.email       = ["public.endenis@gmail.com"]
   s.homepage    = "https://github.com/endenis/rails_structured_data"
-  s.summary     = "TODO: Summary of StructuredData."
-  s.description = "TODO: Description of StructuredData."
+  s.summary     = "Rails helpers to render structured data on web-pages (work in progress)"
+  s.description = "The aim of this project is to provide some basic rails helpers to render structured data inside web-pages."
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
