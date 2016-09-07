@@ -33,6 +33,9 @@ This code renders this html code:
 
 Feel free to contribute by creating issues with idea-proposals and/or pull requests.
 
+Special thanks to:
+[Daniel](https://github.com/dany-kun)
+
 ## Lisence
 
 [MIT-Lisence](https://github.com/endenis/rails_structured_data/blob/master/MIT-LICENSE)
