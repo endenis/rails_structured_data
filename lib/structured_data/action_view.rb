@@ -1,0 +1,2 @@
+module StructuredData::ActionView
+end
