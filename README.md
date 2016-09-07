@@ -29,6 +29,8 @@ The code above renders this html code:
 <script type="application/ld+json">{"@context":"http://schema.org"}</script>
 ```
 
+There will be more features in the next versions!
+
 ## Contributing
 
 Feel free to contribute by creating issues with idea-proposals and/or pull requests.
