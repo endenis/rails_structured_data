@@ -16,7 +16,7 @@ class HelpersTest < ActiveSupport::TestCase
       ]
     }
     text = structured_data_tag hash
-    expected = "<script type=\"ld+json\">{\"@context\"=>\"http://schema.org\", \"@type\"=>\"Organization\", \"contactPoint\"=>[{\"@type\"=>\"ContactPoint\", \"contactType\"=>\"customer service\"}]}</script>"
+    expected = "<script type=\"application/ld+json\">{\"@context\":\"http://schema.org\",\"@type\":\"Organization\",\"contactPoint\":[{\"@type\":\"ContactPoint\",\"contactType\":\"customer service\"}]}</script>"
     assert_equal text, expected
   end
 
