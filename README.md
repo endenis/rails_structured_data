@@ -2,7 +2,7 @@
 
 The aim of this project is to provide some basic rails helpers to render structured data inside web-pages.
 
-:warning: This gem is in development. :warning:
+:warning: This gem is under development. :warning:
 
 ## Basic information
 
@@ -24,7 +24,7 @@ Take a look at this example:
 ```ruby
 <%= structured_data_tag({ '@context' => 'http://schema.org' }) %>
 ```
-This code renders this html code:
+The code above renders this html code:
 ```html
 <script type="application/ld+json">{"@context":"http://schema.org"}</script>
 ```
@@ -34,7 +34,7 @@ This code renders this html code:
 Feel free to contribute by creating issues with idea-proposals and/or pull requests.
 
 Special thanks to:
-[Daniel](https://github.com/dany-kun)
+- [Daniel](https://github.com/dany-kun)
 
 ## Lisence
 
