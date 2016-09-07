@@ -4,9 +4,20 @@ class HelpersTest < ActiveSupport::TestCase
 
   include StructuredData::ActionView::Helpers
 
-  test 'new_method_from_gem return text' do
-    text = new_method_from_gem
-    assert_equal text, 'Hello World!'
+  test 'structured_data_tag return text' do
+    hash = {
+      '@context' => 'http://schema.org',
+      '@type' => 'Organization',
+      'contactPoint' => [
+        {
+          '@type' => 'ContactPoint',
+          'contactType' => 'customer service'
+        }
+      ]
+    }
+    text = structured_data_tag hash
+    expected = "<script type=\"ld+json\">{\"@context\"=>\"http://schema.org\", \"@type\"=>\"Organization\", \"contactPoint\"=>[{\"@type\"=>\"ContactPoint\", \"contactType\"=>\"customer service\"}]}</script>"
+    assert_equal text, expected
   end
 
 end
