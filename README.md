@@ -15,7 +15,18 @@ The aim of this project is to provide some basic rails helpers to render structu
 Add the `structured_data` gem to your `Gemfile`. Be sure to specify the current version!
 
 ```ruby
-gem 'structured_data', '~> 0.1.0'
+gem 'structured_data', '~> 0.1.1'
+```
+
+## Usage
+
+Take a look at this example:
+```ruby
+<%= structured_data_tag({ '@context' => 'http://schema.org' }) %>
+```
+This code renders this html code:
+```html
+<script type="application/ld+json">{"@context":"http://schema.org"}</script>
 ```
 
 ## Contributing
