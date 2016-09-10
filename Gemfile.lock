@@ -108,6 +108,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  rake (~> 11.0)
   sqlite3
   structured_data!
 
