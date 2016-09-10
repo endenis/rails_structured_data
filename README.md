@@ -1,8 +1,9 @@
-# Rails structured data [![Gem Version](https://badge.fury.io/rb/structured_data.svg)](https://badge.fury.io/rb/structured_data)
+# Rails structured data
+[![Gem Version](https://badge.fury.io/rb/structured_data.svg)](https://badge.fury.io/rb/structured_data) [![Build Status](https://travis-ci.org/endenis/rails_structured_data.svg?branch=master)](https://travis-ci.org/endenis/rails_structured_data)
 
 The aim of this project is to provide some basic rails helpers to render structured data inside web-pages.
 
-:warning: This gem is under development. :warning:
+:warning: This gem is under active development.
 
 ## Basic information
 
